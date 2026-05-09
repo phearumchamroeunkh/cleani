@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleani Dashboard - Admin Portal</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">CLEANI ADMIN</div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#" class="active" data-module="overview">Overview</a></li>
+                <li><a href="#" data-module="bookings">Bookings</a></li>
+                <li><a href="#" data-module="team">Team</a></li>
+                <li><a href="#" data-module="payments">Payments</a></li>
+                <li><a href="#" data-module="settings">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <button id="logout-btn" class="btn-secondary">Logout</button>
+        </div>
+    </aside>
+
+    <main class="dashboard-main">
+        <header class="dashboard-topbar">
+            <h2 id="module-title">Overview</h2>
+            <div class="user-info">
+                <span id="user-role">Admin</span>
+                <div class="avatar">A</div>
+            </div>
+        </header>
+
+        <section id="dashboard-content" class="dashboard-content">
+            <!-- Dynamic Content via dashboard.js -->
+            <div class="loading">Loading dashboard data...</div>
+        </section>
+    </main>
+
+    <script src="../assets/js/dashboard.js"></script>
+</body>
+</html>
