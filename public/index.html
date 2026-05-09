@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleani - Professional Cleaning Services</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">CLEANI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#booking" class="btn-primary">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1>Spotless Homes, <br><span>Stress-Free Life.</span></h1>
+                <p>Professional cleaning services tailored to your needs. Residential and commercial solutions in your area.</p>
+                <div class="hero-actions">
+                    <a href="#booking" class="btn-primary btn-large">Start Booking</a>
+                    <a href="#services" class="btn-secondary btn-large">Our Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div id="services-grid" class="grid">
+                <!-- Dynamic Content via JS -->
+                <p>Loading services...</p>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking" class="container bg-light booking-section">
+            <h2 class="section-title">Book Your Cleaning</h2>
+            <div id="booking-flow" class="booking-container">
+                <!-- Multi-step form will be injected here -->
+                <div class="step-indicator">
+                    <span class="step active" data-step="1">1. Service</span>
+                    <span class="step" data-step="2">2. Details</span>
+                    <span class="step" data-step="3">3. Schedule</span>
+                    <span class="step" data-step="4">4. Payment</span>
+                </div>
+                <form id="booking-form">
+                    <div id="step-content">
+                        <!-- Step 1 content -->
+                    </div>
+                    <div class="form-navigation">
+                        <button type="button" id="prev-btn" class="btn-secondary hidden">Back</button>
+                        <button type="button" id="next-btn" class="btn-primary">Continue</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div id="faq-list" class="faq-container">
+                <!-- Dynamic Content via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="footer-grid">
+            <div>
+                <h3>CLEANI</h3>
+                <p>Making the world cleaner, one room at a time.</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Email: hello@cleani.service</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cleani Service Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/booking.js"></script>
+</body>
+</html>
