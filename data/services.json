@@ -1,0 +1,35 @@
+[
+    {
+        "id": "res-basic",
+        "name": "Basic Residential Cleaning",
+        "description": "Standard cleaning for homes, including dusting, vacuuming, and mopping.",
+        "base_price": 50.00,
+        "type": "residential",
+        "add_ons": [
+            {"id": "fridge", "name": "Inside Fridge", "price": 15.00},
+            {"id": "oven", "name": "Inside Oven", "price": 20.00},
+            {"id": "windows", "name": "Interior Windows", "price": 25.00}
+        ]
+    },
+    {
+        "id": "res-deep",
+        "name": "Deep Cleaning",
+        "description": "Thorough cleaning for homes that haven't been cleaned in a while.",
+        "base_price": 120.00,
+        "type": "residential",
+        "add_ons": [
+            {"id": "cabinets", "name": "Inside Cabinets", "price": 30.00},
+            {"id": "walls", "name": "Wall Washing", "price": 50.00}
+        ]
+    },
+    {
+        "id": "com-office",
+        "name": "Office Cleaning",
+        "description": "Professional cleaning for office spaces and commercial buildings.",
+        "base_price": 80.00,
+        "type": "commercial",
+        "add_ons": [
+            {"id": "disinfect", "name": "Sanitization Spray", "price": 40.00}
+        ]
+    }
+]
